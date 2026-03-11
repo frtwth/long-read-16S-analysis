@@ -9,10 +9,10 @@ library(dplyr)
 library(readr)
 
 ###Step1.Load data
-genus_cts <- fread("/Users/celina/Desktop/project/16s_metagenomics/04.split_taxonomy/emu-combined-genus-counts.tsv")
-metadata_raw <- readRDS("/Users/celina/Desktop/project/16s_metagenomics/metadata/metadata.df.rds")
+genus_cts <- fread("/Users/jsy/Desktop/project/16s_metagenomics/04.split_taxonomy/emu-combined-genus-counts.tsv")
+metadata_raw <- readRDS("/Users/jsy/Desktop/project/16s_metagenomics/metadata/metadata.df.rds")
 
-dir_out <- "/Users/celina/Desktop/project/16s_metagenomics/06.DA_analysis/input_split"
+dir_out <- "/Users/jsy/Desktop/project/16s_metagenomics/06.DA_analysis/input_split"
 dir.create(dir_out, recursive = TRUE, showWarnings = FALSE)
 
 ###Step2.Preprocess genus counts table
