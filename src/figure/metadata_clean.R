@@ -62,4 +62,4 @@ metadata.df <- metadata.df %>%
   dplyr::select(sample_id, medium, treatment, stirred, time, replicate, condition)
 
 ###Save RDS files
-saveRDS(metadata.df, "/Users/celina/Desktop/project/16s_metagenomics/metadata/metadata.df.rds")
+saveRDS(metadata.df, "/Users/jsy/Desktop/project/16s_metagenomics/metadata/metadata.df.rds")
