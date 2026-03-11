@@ -8,10 +8,10 @@ library(dplyr)
 library(ggplot2)
 library(tibble)
 
-source("/Users/celina/Desktop/project/16s_metagenomics/code/src/figure/plot_theme.R")
+source("/Users/jsy/Desktop/project/16s_metagenomics/code/src/figure/plot_theme.R")
 
 ###Step1.Load beta-diversity results
-beta_res <- readRDS("/Users/celina/Desktop/project/16s_metagenomics/05.beta_diversity/beta_diversity_genus.rds")
+beta_res <- readRDS("/Users/jsy/Desktop/project/16s_metagenomics/05.beta_diversity/beta_diversity_genus.rds")
 
 pcoa_df <- beta_res$pcoa_df
 pcoa_var <- beta_res$pcoa_var
