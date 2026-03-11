@@ -9,8 +9,8 @@ library(dplyr)
 library(readr)
 
 ###Step1.Define directories
-dir_in <- "/Users/celina/Desktop/project/16s_metagenomics/06.DA_analysis/input_split"
-dir_out <- "/Users/celina/Desktop/project/16s_metagenomics/06.DA_analysis/results"
+dir_in <- "/Users/jsy/Desktop/project/16s_metagenomics/06.DA_analysis/input_split"
+dir_out <- "/Users/jsy/Desktop/project/16s_metagenomics/06.DA_analysis/results"
 
 dir.create(dir_out, recursive = TRUE, showWarnings = FALSE)
 
