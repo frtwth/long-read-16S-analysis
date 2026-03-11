@@ -122,8 +122,8 @@ p_permanova <- ggplot(
   theme(legend.position = "none")
 
 ###Step5.Save outputs
-ggsave("/Users/celina/Desktop/project/16s_metagenomics/results/figures/beta_diversity/pcoa_global_genus3.pdf", p_pcoa_global, width = 8, height = 6, dpi = 300)
+ggsave("/Users/jsy/Desktop/project/16s_metagenomics/results/figures/beta_diversity/pcoa_global_genus3.pdf", p_pcoa_global, width = 8, height = 6, dpi = 300)
 
-ggsave("/Users/celina/Desktop/project/16s_metagenomics/results/figures/beta_diversity/permanova_barplot_genus3.pdf", p_permanova, width = 8, height = 6, dpi = 300)
+ggsave("/Users/jsy/Desktop/project/16s_metagenomics/results/figures/beta_diversity/permanova_barplot_genus3.pdf", p_permanova, width = 8, height = 6, dpi = 300)
 
-write.csv(perma_table, "/Users/celina/Desktop/project/16s_metagenomics/results/tables/beta_diversity/permanova_table_genus3.csv", row.names = FALSE)
+write.csv(perma_table, "/Users/jsy/Desktop/project/16s_metagenomics/results/tables/beta_diversity/permanova_table_genus3.csv", row.names = FALSE)
