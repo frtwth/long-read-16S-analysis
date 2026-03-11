@@ -10,8 +10,8 @@ library(stringr)
 library(tidyr)
 
 ###Step1.Define directories
-dir_in <- "/Users/celina/Desktop/project/16s_metagenomics/06.DA_analysis/results"
-dir_out <- "/Users/celina/Desktop/project/16s_metagenomics/06.DA_analysis/heatmap_data"
+dir_in <- "/Users/jsy/Desktop/project/16s_metagenomics/06.DA_analysis/results"
+dir_out <- "/Users/jsy/Desktop/project/16s_metagenomics/06.DA_analysis/heatmap_data"
 
 dir.create(dir_out, recursive = TRUE, showWarnings = FALSE)
 
