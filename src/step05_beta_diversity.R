@@ -9,8 +9,8 @@ library(dplyr)
 library(vegan)
 
 ###Step1.Load data
-genus_abundance <- fread("/Users/celina/Desktop/project/16s_metagenomics/04.split_taxonomy/emu-combined-genus.tsv")
-metadata_raw <- readRDS("/Users/celina/Desktop/project/16s_metagenomics/metadata/metadata.df.rds")
+genus_abundance <- fread("/Users/jsy/Desktop/project/16s_metagenomics/04.split_taxonomy/emu-combined-genus.tsv")
+metadata_raw <- readRDS("/Users/jsy/Desktop/project/16s_metagenomics/metadata/metadata.df.rds")
 
 ###Step2.Preprocess genus abundance table
 genus_abundance <- genus_abundance %>%
@@ -123,5 +123,5 @@ saveRDS(
     pcoa_df = pcoa_df,
     pcoa_var = pcoa_var
   ),
-  file = "/Users/celina/Desktop/project/16s_metagenomics/05.beta_diversity/beta_diversity_genus.rds"
+  file = "/Users/jsy/Desktop/project/16s_metagenomics/05.beta_diversity/beta_diversity_genus.rds"
 )
