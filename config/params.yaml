@@ -6,7 +6,6 @@ project:
   name : "16S_rRNA_metagenomics"
   # root: "/home/promethion/test/16s_metagenomics"
   #root : "/home/mbt/jsy/project/16s_metagenomics"
-  root : "/Users/celina/Desktop/project/16s_metagenomics/"
 
 defaults:
   log_base_rel: "Logfiles"
