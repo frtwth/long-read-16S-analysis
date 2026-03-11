@@ -162,7 +162,7 @@ for (i in seq_len(nrow(comb_df))) {
 }
 
 ###Step8.Save summary files
-dir_summary <- "/Users/celina/Desktop/project/16s_metagenomics/06.DA_analysis/summary"
+dir_summary <- "/Users/jsy/Desktop/project/16s_metagenomics/06.DA_analysis/summary"
 dir.create(dir_summary, recursive = TRUE, showWarnings = FALSE)
 
 manifest_df <- bind_rows(manifest_list)
