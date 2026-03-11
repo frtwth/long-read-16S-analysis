@@ -11,8 +11,8 @@ library(ggplot2)
 library(ggh4x)
 library(scales)
 
-phylum_abundance.df <- fread("/Users/celina/Desktop/project/16s_metagenomics/04.split_taxonomy/emu-combined-phylum.tsv")
-metadata.df <- readRDS("/Users/celina/Desktop/project/16s_metagenomics/metadata/metadata.df.rds")
+phylum_abundance.df <- fread("/Users/jsy/Desktop/project/16s_metagenomics/04.split_taxonomy/emu-combined-phylum.tsv")
+metadata.df <- readRDS("/Users/jsy/Desktop/project/16s_metagenomics/metadata/metadata.df.rds")
 
 ###Step1.Preprocess phylum abundance table
 phylum_abundance.df$superkingdom <- NULL
