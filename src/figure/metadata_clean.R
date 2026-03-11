@@ -9,7 +9,7 @@ library(tidyverse)
 #library(tibble)
 
 ###Load A Metadata
-metadata.df <- fread("/Users/celina/Desktop/project/16s_metagenomics/metadata/raw/metadata.csv", check.names=FALSE)
+metadata.df <- fread("/Users/jsy/Desktop/project/16s_metagenomics/metadata/raw/metadata.csv", check.names=FALSE)
 metadata.df[, sample_id := paste0(sample_id, "_Pl", Platte)]
 metadata.df[, sample_id := gsub("repBC_", "repBC", sample_id)]
 metadata.df$Platte <-NULL
