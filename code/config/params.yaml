@@ -4,7 +4,7 @@
 
 project:
   name : "16S_rRNA_metagenomics"
-  root : "/Users/celina/Desktop/project/16s_metagenomics_longread/"
+  root : "/Users/jsy/Desktop/project/16s_metagenomics_longread/"
 
 alpha_diversity:
   dir_in_rel:
